@@ -2,6 +2,16 @@
 
 Ektos AI is an innovative platform aimed at reducing biases in AI decision-making processes using a multi-layered machine learning framework and blockchain technology. The platform focuses on three main use cases: financial, healthcare, and human resources.
 
+
+## Project Architecture
+
+The Ektos AI platform consists of four main components: frontend, backend, machine learning, and blockchain. Here's an overview of how these components interact with each other:
+
+- The frontend is built using React and TypeScript and provides a user-friendly interface for interacting with the platform.
+- The backend is built using Node.js, Express.js, and TypeScript and handles API requests, data processing, and communication with the machine learning and blockchain components.
+- The machine learning component is implemented using Python and various libraries such as TensorFlow and scikit-learn. It trains and evaluates models for each use case and integrates with the backend for data processing and bias identification.
+- The blockchain component is implemented using Solidity and Ethereum and ensures the transparency and immutability of decision records.
+
 ## Features
 
 - Multi-layered machine learning framework for bias identification and mitigation
@@ -55,6 +65,19 @@ Ektos AI is an innovative platform aimed at reducing biases in AI decision-makin
 3. Run smart contract tests:
    - cd ../blockchain
    - truffle test
+
+## Usage Guidelines
+
+[Provide step-by-step instructions on how to use the Ektos AI platform]
+
+1. Sign up for an account or log in if you already have one.
+2. Select a use case (financial, healthcare, or human resources) from the dashboard.
+3. Choose a dataset to analyze for biases.
+4. Initiate the machine learning process to train the models and identify potential biases.
+5. View the results and insights provided by the platform.
+6. Explore the decision records stored on the blockchain for transparency and auditability.
+
+[Include screenshots or GIFs showcasing the user interface and key features]
 
 ## Contributing
 
